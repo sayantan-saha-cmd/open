@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terminal Tutor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Terminal Tutor</h1>
+        <div class="terminal-note">
+            user@linux-games:~ <p><span class="comment"># Welcome to Terminal Tutor! Select a game to start learning Linux commands.</span></p> <p><span class="comment"># Each game will challenge your command line skills in a fun way.</span></p> <p><span class="command">$</span> <span class="comment">Ready to play? Click on a game below!</span></p><span class="cursor">|</span>
+        </div>
+        <nav>
+            <ul>
+                <li><button id="mode-quiz">Command Quiz</button></li>
+                <li><button id="mode-puzzle">Command Puzzles</button></li>
+                <li><button id="mode-server">Server Room</button></li>
+                <li><button id="mode-file">File Management Room</button></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="game-container">
+            <!-- Game mode containers will be dynamically injected here -->
+        </section>
+        <aside id="score-progress">
+            <div id="score">Score: 0</div>
+            <div id="level">Level: 1</div>
+            <div id="achievements">Achievements: None</div>
+        </aside>
+    </main>
+    <footer>
+        <p>&copy; 2025 Sayantan Saha | Learn Linux commands the fun way!</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
