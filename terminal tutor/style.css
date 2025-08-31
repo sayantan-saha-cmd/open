@@ -1,4 +1,10 @@
 body {
+    margin: 0;
+    font-family: 'Fira Mono', 'Consolas', monospace;
+    background: linear-gradient(135deg, #232526 0%, #414345 100%);
+    color: #e0e0e0;
+    animation: fadeIn 1.5s ease-in-out;
+}
 .terminal-output {
     background: #181818;
     color: #00ff99;
@@ -139,11 +145,6 @@ body {
     margin: 0.2rem;
     font-size: 0.95rem;
 }
-    margin: 0;
-    font-family: 'Fira Mono', 'Consolas', monospace;
-    background: linear-gradient(135deg, #232526 0%, #414345 100%);
-    color: #e0e0e0;
-}
 header {
     background: #181818;
     padding: 1rem;
@@ -229,7 +230,7 @@ footer {
     white-space: pre-wrap;
 }
 .terminal-note .comment {
-    color: #888;
+    color: #23eae6;
 }
 .terminal-note .command {
     color: #00ff99;
